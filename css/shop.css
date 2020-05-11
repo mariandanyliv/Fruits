@@ -1,0 +1,38 @@
+.fruits-view {
+  max-width: 1080px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5rem auto 5rem auto;
+}
+
+.fruit-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.fruit-card__image {
+  max-width: 225px;
+  height: 180px;
+  transition: transform .5s ease;
+}
+
+.fruit-card__image:hover {
+  transform: scale(1.1);
+}
+
+.fruit-card__name {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.fruit-card__btn {
+  margin-top: 10px;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}

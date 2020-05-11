@@ -1,0 +1,284 @@
+/* HEADER */
+.app-header {
+  background-color: #fff;
+}
+.app-header .nav {
+  max-width: 1440px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.nav__list {
+  margin: 0;
+}
+
+.list-item {
+  color: #191919;
+  transition: color .3s ease;
+}
+
+.list-item:hover {
+  color: #ad6565;
+  text-decoration: none;
+}
+
+.list-item:first-child {
+  margin-right: 25px;
+}
+/* HEADER */
+
+
+/* MAIN PAGE */
+.dried-shop {
+  background: #f9f9f9;
+}
+
+.dried-shop-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 4rem;
+  margin: 0 auto;
+}
+
+.dried-shop__img {
+  height: 780px;
+}
+
+.dried-shop__box {
+  margin-top: 3rem;
+  padding-bottom: 8rem;
+}
+
+.box-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  line-height: 1.25em;
+  margin-bottom: 2rem;
+}
+
+.box-descripion {
+  margin: 0 auto;
+  max-width: 780px;
+  text-align: center;
+  line-height: 1.875em;
+  color: #000;
+}
+
+.our-products {
+  margin-top: 5rem;
+}
+    
+.our-products-container  {
+  margin: 0 auto;
+}
+
+.our-products__box {
+  max-width: 1280px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.box-title {
+  font-size: 4.5rem;
+  line-height: 1.35em;
+  text-align: center;
+  color: #C9DD72;
+}
+
+.box-sell {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.box-descripion {
+  margin-bottom: 32px;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.8em;
+}
+
+.info-group {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.info-group .description {
+  max-width: 860px;
+  padding: 3rem;
+  background-color: #C9DD72;
+}
+
+.description__title {
+  margin-bottom: 28px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.description__price {
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.description__info {
+  font-size: 24px;
+}
+        
+.image:first-child {
+  margin-right: 30px;
+}
+
+.image:first-child:nth-child(2) {
+  margin-left: 30px;
+}
+
+.our-products__goods {
+  display: block;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.work-time {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-size: 1.8rem;
+  background: #f9f9f9;
+}
+
+.work-time__caption {
+  margin-bottom: 2.6rem;
+}
+
+.work-time__welcome {
+  margin-bottom: 2.6rem;
+}
+
+.contact-us {
+  padding-bottom: 3.4rem;
+  background-color: #C9DD72;
+}
+
+.contact-us__container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+.contact-us__information {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+}
+
+.contact-us__information > span {
+  margin-bottom: 1.5rem;
+}
+
+.iframe-card {
+  display: flex;
+  justify-content: center;
+}
+
+.page-container {
+  width: calc(100% - 160px);
+  min-width: 980px;
+}
+
+.form-group{
+  margin-bottom: 15px;
+}
+
+label{
+  margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 11px;
+  padding-top: 3px;
+}
+
+.form-control {
+  height: auto!important;
+  padding: 8px 12px !important;
+}
+
+.input-group {
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+}
+
+#button {
+  border: 1px solid #ccc;
+  margin-top: 28px;
+  padding: 6px 12px;
+  color: #666;
+  text-shadow: 0 1px #fff;
+  cursor: pointer;
+  border-radius: 3px 3px;
+  box-shadow: 0 1px #fff inset, 0 1px #ddd;
+  background: #f5f5f5;
+  background: linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee', GradientType=0);
+}
+
+.main-form{
+  margin: 30px auto;
+  padding: 10px 40px;
+  color: #FFF;
+  text-shadow: none;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+}
+
+span.input-group-addon {
+  display: flex;
+  align-items: center;
+}
+
+span.input-group-addon i {
+  color: #009edf;
+  font-size: 17px;
+}
+
+.login-button{
+  margin-top: 5px;
+}
+
+.form-goods {
+  width: 768px;
+}
+/* MAIN PAGE */
+
+
+/* FOOTER */
+.app-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.app-footer i {
+  margin-right: 1rem;
+}
+
+.app-footer__social {
+  margin-bottom: 1rem;
+}
+/* FOOTER */
